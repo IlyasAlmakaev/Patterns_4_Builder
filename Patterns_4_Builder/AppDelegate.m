@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "LowPricePhoneBuider.h"
+#import "HighPricePhoneBuilder.h"
+#import "FactorySalesMan.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +19,23 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    LowPricePhoneBuider *_cheapPhoneBuilder = [[LowPricePhoneBuider alloc] init];
+    HighPricePhoneBuilder *_expensivePhoneBuilder = [[HighPricePhoneBuilder alloc] init];
+    
+    FactorySalesMan *_salesMan = [[FactorySalesMan alloc] init];
+    [_salesMan setBuilder:_cheapPhoneBuilder];
+    [_salesMan constructPhone];
+    AndroidPhone *_phone = [_salesMan getPhone];
+    
+    NSLog(@"Phone Name = %@, osVersion = %@, cpun code name = %@, ram size = %@, os version code = %@, launcher = %@", _phone.name, _phone.osVersion, _phone.cpuCodeName, _phone.RAMsize, _phone.osVersionCode, _phone.launcher);
+    
+    [_salesMan setBuilder:_expensivePhoneBuilder];
+    [_salesMan constructPhone];
+    _phone = [_salesMan getPhone];
+    
+    NSLog(@"Phone Name = %@, osVersion = %@, cpun code name = %@, ram size = %@, os version code = %@, launcher = %@", _phone.name, _phone.osVersion, _phone.cpuCodeName, _phone.RAMsize, _phone.osVersionCode, _phone.launcher);
+    
     return YES;
 }
 

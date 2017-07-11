@@ -7,15 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		284348821EFB6FCD00BD4212 /* BPAndroidPhoneBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 284348811EFB6FCD00BD4212 /* BPAndroidPhoneBuilder.m */; };
+		284348851EFB771A00BD4212 /* LowPricePhoneBuider.m in Sources */ = {isa = PBXBuildFile; fileRef = 284348841EFB771A00BD4212 /* LowPricePhoneBuider.m */; };
+		284348881EFB786200BD4212 /* HighPricePhoneBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 284348871EFB786200BD4212 /* HighPricePhoneBuilder.m */; };
+		2843488B1EFB78E200BD4212 /* FactorySalesMan.m in Sources */ = {isa = PBXBuildFile; fileRef = 2843488A1EFB78E200BD4212 /* FactorySalesMan.m */; };
 		28E6AD211EFB50F000A7D92A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E6AD201EFB50F000A7D92A /* main.m */; };
 		28E6AD241EFB50F000A7D92A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E6AD231EFB50F000A7D92A /* AppDelegate.m */; };
 		28E6AD271EFB50F000A7D92A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E6AD261EFB50F000A7D92A /* ViewController.m */; };
 		28E6AD2A1EFB50F000A7D92A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28E6AD281EFB50F000A7D92A /* Main.storyboard */; };
 		28E6AD2C1EFB50F000A7D92A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28E6AD2B1EFB50F000A7D92A /* Assets.xcassets */; };
 		28E6AD2F1EFB50F000A7D92A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28E6AD2D1EFB50F000A7D92A /* LaunchScreen.storyboard */; };
+		28E6AD381EFB511D00A7D92A /* AndroidPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E6AD371EFB511D00A7D92A /* AndroidPhone.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		284348801EFB6FCD00BD4212 /* BPAndroidPhoneBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPAndroidPhoneBuilder.h; sourceTree = "<group>"; };
+		284348811EFB6FCD00BD4212 /* BPAndroidPhoneBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPAndroidPhoneBuilder.m; sourceTree = "<group>"; };
+		284348831EFB771A00BD4212 /* LowPricePhoneBuider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LowPricePhoneBuider.h; sourceTree = "<group>"; };
+		284348841EFB771A00BD4212 /* LowPricePhoneBuider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LowPricePhoneBuider.m; sourceTree = "<group>"; };
+		284348861EFB786200BD4212 /* HighPricePhoneBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HighPricePhoneBuilder.h; sourceTree = "<group>"; };
+		284348871EFB786200BD4212 /* HighPricePhoneBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HighPricePhoneBuilder.m; sourceTree = "<group>"; };
+		284348891EFB78E200BD4212 /* FactorySalesMan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactorySalesMan.h; sourceTree = "<group>"; };
+		2843488A1EFB78E200BD4212 /* FactorySalesMan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactorySalesMan.m; sourceTree = "<group>"; };
 		28E6AD1C1EFB50F000A7D92A /* Patterns_4_Builder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Patterns_4_Builder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28E6AD201EFB50F000A7D92A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		28E6AD221EFB50F000A7D92A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +39,8 @@
 		28E6AD2B1EFB50F000A7D92A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28E6AD2E1EFB50F000A7D92A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28E6AD301EFB50F000A7D92A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28E6AD361EFB511D00A7D92A /* AndroidPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AndroidPhone.h; sourceTree = "<group>"; };
+		28E6AD371EFB511D00A7D92A /* AndroidPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AndroidPhone.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +75,16 @@
 			children = (
 				28E6AD221EFB50F000A7D92A /* AppDelegate.h */,
 				28E6AD231EFB50F000A7D92A /* AppDelegate.m */,
+				28E6AD361EFB511D00A7D92A /* AndroidPhone.h */,
+				28E6AD371EFB511D00A7D92A /* AndroidPhone.m */,
+				284348801EFB6FCD00BD4212 /* BPAndroidPhoneBuilder.h */,
+				284348811EFB6FCD00BD4212 /* BPAndroidPhoneBuilder.m */,
+				284348831EFB771A00BD4212 /* LowPricePhoneBuider.h */,
+				284348841EFB771A00BD4212 /* LowPricePhoneBuider.m */,
+				284348861EFB786200BD4212 /* HighPricePhoneBuilder.h */,
+				284348871EFB786200BD4212 /* HighPricePhoneBuilder.m */,
+				284348891EFB78E200BD4212 /* FactorySalesMan.h */,
+				2843488A1EFB78E200BD4212 /* FactorySalesMan.m */,
 				28E6AD251EFB50F000A7D92A /* ViewController.h */,
 				28E6AD261EFB50F000A7D92A /* ViewController.m */,
 				28E6AD281EFB50F000A7D92A /* Main.storyboard */,
@@ -151,7 +176,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2843488B1EFB78E200BD4212 /* FactorySalesMan.m in Sources */,
+				284348851EFB771A00BD4212 /* LowPricePhoneBuider.m in Sources */,
+				28E6AD381EFB511D00A7D92A /* AndroidPhone.m in Sources */,
+				284348881EFB786200BD4212 /* HighPricePhoneBuilder.m in Sources */,
 				28E6AD271EFB50F000A7D92A /* ViewController.m in Sources */,
+				284348821EFB6FCD00BD4212 /* BPAndroidPhoneBuilder.m in Sources */,
 				28E6AD241EFB50F000A7D92A /* AppDelegate.m in Sources */,
 				28E6AD211EFB50F000A7D92A /* main.m in Sources */,
 			);
@@ -314,6 +344,7 @@
 				28E6AD351EFB50F000A7D92A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
