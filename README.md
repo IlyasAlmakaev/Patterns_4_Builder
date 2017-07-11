@@ -8,3 +8,5 @@
 ##Когда использовать: 1. Создание сложного объекта.
 
 Схема:
+
+![patterns_builder](https://user-images.githubusercontent.com/8353437/28077409-e4a561a2-668b-11e7-99be-aed27f1dd17a.png)
